@@ -1,0 +1,40 @@
+<mxfile host="Electron" modified="2024-02-10T00:26:39.215Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="ksbRHZn6AEC9L4HWkblL" version="22.1.2" type="device">
+  <diagram name="第 1 页" id="LkJuiRH6l0lbzLr4TzRU">
+    <mxGraphModel dx="1418" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="emEXBuJK6bSXwLQdmqj4-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="320" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="emEXBuJK6bSXwLQdmqj4-2" value="0" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="emEXBuJK6bSXwLQdmqj4-5" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="emEXBuJK6bSXwLQdmqj4-6" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="emEXBuJK6bSXwLQdmqj4-7" value="7" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="emEXBuJK6bSXwLQdmqj4-8" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="320" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="emEXBuJK6bSXwLQdmqj4-9" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="emEXBuJK6bSXwLQdmqj4-10" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="emEXBuJK6bSXwLQdmqj4-11" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="emEXBuJK6bSXwLQdmqj4-12" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
