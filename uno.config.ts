@@ -13,6 +13,8 @@ export default defineConfig({
     //@ts-ignore
     [/^m-(\d+)$/, ([, d]) => ({ margin: `${d / 4}rem` })],
     ['transition-visible', { transition: 'color .5s' }],
+    [/^max-wp-(\d+)$/, ([, d]) => ({ 'max-width': `${d}%` })],
+    [/^max-hp-(\d+)$/, ([, d]) => ({ 'max-height': `${d}%` })],
   ],
   shortcuts: [
     ['flex-center', 'flex justify-center items-center'],

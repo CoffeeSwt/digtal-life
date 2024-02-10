@@ -49,6 +49,15 @@ export class DataEngine {
   getBlockState(x: number, y: number) {
     this.manager.getBlockState(x, y)
   }
+  getBlockStateMap() {
+    const chunkSize = this.width
+    const result = []
+
+    for (let i = 0; i < this.getData().length; i += chunkSize) {
+      result.push(this.getData().slice(i, i + chunkSize))
+    }
+    return result
+  }
 }
 
 class BlocksManager {
@@ -120,7 +129,7 @@ class Block {
   private checkThisCellLive() {
     const liveCount = this.getLiveCount()
     //细胞周围少于三个细胞，人口不足，死亡
-    if (liveCount < 3) return false
+    if (liveCount < 2) return false
     //细胞周围多余三个细胞，人口过剩，死亡
     if (liveCount > 3) return false
     //细胞周围有2个或3个细胞，存活
