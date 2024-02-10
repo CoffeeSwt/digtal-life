@@ -46,6 +46,9 @@ export class DataEngine {
   changeBlockState(x: number, y: number) {
     this.manager.changeBlockState(x, y)
   }
+  getBlockState(x: number, y: number) {
+    this.manager.getBlockState(x, y)
+  }
 }
 
 class BlocksManager {
@@ -85,6 +88,10 @@ class BlocksManager {
   changeBlockState(x: number, y: number) {
     const targetBlock = this.getBlockByPos(x, y)
     targetBlock?.changeState()
+  }
+  getBlockState(x: number, y: number): boolean {
+    const targetBlock = this.getBlockByPos(x, y)
+    return targetBlock?.getState()!
   }
 }
 

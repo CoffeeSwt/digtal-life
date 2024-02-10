@@ -21,6 +21,7 @@ export default defineConfig({
     ['full', 'h-full w-full'],
     ['full-border', 'h-full w-full box-border'],
     ['full-screen', 'h-screen w-screen'],
+    ['c-border', 'border border-solid border-gray-400'],
   ],
   theme: {
     colors: {},

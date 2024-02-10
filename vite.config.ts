@@ -23,6 +23,7 @@ export default defineConfig({
             'ref', // import { ref } from 'vue',
             'reactive', // import { ref } from 'vue',
             'onMounted',
+            'computed',
           ],
         },
       ],
