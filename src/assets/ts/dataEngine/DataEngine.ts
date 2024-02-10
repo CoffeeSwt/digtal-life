@@ -9,7 +9,7 @@ export class DataEngine {
     this.height = height
     this.manager = new BlocksManager(width, height)
     //初始化生成细胞
-    for (let y = 0; y < height ; y++) {
+    for (let y = 0; y < height; y++) {
       for (let x = 0; x < this.width; x++) {
         this.manager.addBlock(new Block(x, y))
       }
@@ -35,7 +35,9 @@ export class DataEngine {
     })
   }
   updataTick() {
+    //下一刻状态计算
     this.manager.computeNextTickState()
+    //执行更新
     this.manager.updateNofify()
   }
   getData() {
@@ -72,9 +74,11 @@ class BlocksManager {
     return this.blocks
   }
   getBlockByPos(x: number, y: number): Block | null {
+    //越界
     if (x < 0 || x > this.width) return null
     if (y < 0 || y > this.height) return null
-    const index = (y + 1) * x + x
+    //没越界
+    const index = this.width * y + x
     const block = this.blocks[index]
     return block
   }
